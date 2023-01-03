@@ -149,13 +149,13 @@ li{
 
 /* article style start */
 /* article style start */
-h2{
+dt{
     font-size: 32px;
     font-weight: 600;
     color: rgb(41, 38, 38);
     margin: 20px 0px;
 }
-p{
+dd{
     font-size: 16px;
     font-weight: 600;
     color: rgb(75, 75, 75);
