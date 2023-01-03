@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* custom styling starts here */
+/* custom styling starts here */
+
+/* general style */
+/* general style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+ul{
+    margin: 10px 10px;
+}
+ol{
+    margin: 10px 10px;
+}
+li{
+    margin: 10px 10px;
+}
+/* header style start */
+/* header style start */
+.header{
+    background-color: #F96115;
+}
+.navbar{
+    padding: 20px 0px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #f8f5e5;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 30px;
+}
+.navbar a:hover{
+    color: #005979;
+}
+/* header style end */
+/* header style end */
+
+/* main style start */
+/* main style start */
+.main{
+    background-color: #D4CEA7;
+    padding-top: 50px;
+}
+/* menucard style start */
+/* menucard style start */
+.menucard-container{
+    justify-content: space-between;
+}
+.menucard{
+    padding: 30px 10px;
+    width: 30%;
+    height: 450px;
+    background-color: #005979;
+    color: #eee8c5;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, .5);
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.number{
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-left: 10px;
+}
+.pull{
+    transform: translate(-10px, 0);
+}
+.disc{
+    list-style-type: disc;
+}
+.square{
+    list-style-type: square;
+    margin-inline-start: 30px;
+}
+.tick{
+    line-height: 2.5;
+}
+.tick li:before{
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: 20px;
+    background-image: url("../media/circle-check-solid.svg");
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+/* menucard style end */
+/* menucard style end */
+
+/* article style start */
+/* article style start */
+dt{
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(41, 38, 38);
+    margin: 20px 0px;
+}
+dd{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+    padding-inline-start: 40px;
+    margin: 10px 0px;
+    line-height: 1.8;
+}
+.narrow{
+    width: 20%;
+    line-height: 1.5;
+}
+
+/* article style end */
+/* article style end */
+
+/* main style end */
+/* main style end */
+
+/* footer style start */
+/* footer style start */
+.footer{
+    background-color:#252C22 ;
+}
+.footer .navbar a{
+    color: white;
+}
+.footer .navbar a:hover{
+    color: #F96115;
+}
+/* footer style end */
+/* footer style end */
